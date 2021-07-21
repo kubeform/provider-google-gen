@@ -38,12 +38,13 @@ func main() {
 	}
 
 	opts := &util.GeneratorOptions{
-		ProviderName:       "google",
-		ProviderData:       google.Provider(),
-		ProviderImportPath: "github.com/hashicorp/terraform-provider-google/google",
-		Version:            "v1alpha1",
-		APIsPath:           apisPath,
-		ControllerPath:     controllerPath,
+		ProviderName:         "google",
+		ProviderNameOriginal: "google",
+		ProviderData:         google.Provider(),
+		ProviderImportPath:   "github.com/hashicorp/terraform-provider-google/google",
+		Version:              "v1alpha1",
+		APIsPath:             apisPath,
+		ControllerPath:       controllerPath,
 	}
 	err := util.Generate(opts)
 	if err != nil {
