@@ -3,7 +3,7 @@
 
 # Kubeform Google Provider Code Generator
 
-Generates code for Kubeform Google Provider
+Kubeform code generator for [Terraform Google Provider](https://github.com/hashicorp/terraform-provider-google)
 
 ## Installation
 
