@@ -43,6 +43,7 @@ func main() {
 		ProviderData:         google.Provider(),
 		ProviderImportPath:   "github.com/hashicorp/terraform-provider-google/google",
 		ProviderConfig:       "hashicorp/google",
+		TfPluginVersion:      "v2.8.0",
 		Version:              "v1alpha1",
 		APIsPath:             apisPath,
 		ControllerPath:       controllerPath,
